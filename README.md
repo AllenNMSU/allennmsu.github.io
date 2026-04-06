@@ -1,4 +1,4 @@
-# allennmsu-web-project
+# Allen Sikorski ICT-280-U7 Website Project 
 NMSU Allen Sikorski Web Development Project
 
 
