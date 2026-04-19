@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    background-color: #1d4ed8;
+    background-color: #003f88;
     padding: 18px;
     text-align: left;
 }
@@ -21,12 +21,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #facc15;
+    color: #ffdd57;
     text-decoration: underline;
 }
 
 h1 {
-    background-color: #2563eb;
+    background-color: #003f88;
     color: white;
     font-size: 38px;
     padding: 25px;
@@ -34,8 +34,12 @@ h1 {
     text-align: left;
 }
 
+.content {
+    padding: 20px;
+}
+
 h2 {
-    color: #1d4ed8;
+    color: #003f88;
     font-size: 28px;
     margin-top: 35px;
     margin-bottom: 15px;
@@ -62,11 +66,11 @@ li {
 }
 
 a {
-    color: #2563eb;
+    color: #003366;
 }
 
 a:hover {
-    color: #dc2626;
+    color: #990000;
 }
 
 img {
@@ -87,7 +91,7 @@ table {
 }
 
 th {
-    background-color: #2563eb;
+    background-color: #003f88;
     color: white;
     font-size: 18px;
 }
