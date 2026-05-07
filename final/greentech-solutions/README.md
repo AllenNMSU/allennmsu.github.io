@@ -34,6 +34,12 @@ The website is designed to work on desktop and mobile screen sizes. The images r
 
 The website includes basic accessibility features such as alt text for images, labels for form fields, readable colors, semantic HTML structure, and clear headings.
 
+## How to Run
+
+To view the website locally, open the index.html file in a web browser.
+
+The website can also be viewed online using the GitHub Pages link above.
+
 ## Technologies Used
 
 HTML5  
