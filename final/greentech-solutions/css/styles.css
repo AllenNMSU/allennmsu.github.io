@@ -1,0 +1,160 @@
+/* Main page setup */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   background-color: #f4f7f2;
+   color: #1f2d24;
+   line-height: 1.6;
+}
+
+/* Top of each page */
+header {
+   background-color: #2f6b3f;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+header h1 {
+   margin: 0 0 15px 0;
+}
+
+/* Navigation menu */
+nav ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+nav li {
+   display: inline-block;
+   margin: 5px 10px;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+/* Main content */
+main {
+   max-width: 1000px;
+   margin: 20px auto;
+   padding: 0 20px;
+}
+
+/* Page sections */
+section {
+   background-color: white;
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 8px;
+   border: 1px solid #d6ddd2;
+}
+
+/* Headings */
+h2 {
+   color: #2f6b3f;
+   margin-top: 0;
+}
+
+h3 {
+   color: #3d5f45;
+}
+
+/* Product and blog boxes */
+article {
+   background-color: #f9fbf7;
+   padding: 15px;
+   margin-bottom: 15px;
+   border: 1px solid #d6ddd2;
+   border-radius: 8px;
+}
+
+/* Images on the site */
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 10px 0;
+   border-radius: 6px;
+}
+
+/* Contact form */
+form {
+   max-width: 600px;
+}
+
+label {
+   font-weight: bold;
+}
+
+input,
+textarea {
+   width: 100%;
+   padding: 10px;
+   margin-top: 5px;
+   border: 1px solid #9eaa9b;
+   border-radius: 5px;
+   font: inherit;
+   box-sizing: border-box;
+}
+
+button {
+   background-color: #2f6b3f;
+   color: white;
+   padding: 10px 16px;
+   border: none;
+   border-radius: 5px;
+   font: inherit;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #245331;
+}
+
+/* Bottom of each page */
+footer {
+   background-color: #1f2d24;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   margin-top: 30px;
+}
+
+/* Changes for smaller screens */
+@media screen and (max-width: 600px) {
+   nav li {
+      display: block;
+      margin: 10px 0;
+   }
+
+   main {
+      margin: 10px auto;
+      padding: 0 10px;
+   }
+
+   section {
+      padding: 15px;
+   }
+}
+
+/* About page timeline */
+.timeline ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.timeline li {
+   background-color: #f4f7f2;
+   margin-bottom: 12px;
+   padding: 12px;
+   border-left: 5px solid #2f6b3f;
+   border-radius: 5px;
+}
